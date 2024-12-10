@@ -20,17 +20,18 @@ const selectTopic = () => {
     }
 }
 
-/*for (let topic = 0; topic < topics.length; topic++){
+for (let topic = 0; topic < topics.length; topic++){
     console.log(topics[topic])
-}*/
+}
 
-const listTopics = () =>{
+/*const listTopics = () =>{
     {
         for (topic in topics){
             console.log(topics[topic]);
         }
     }
-}
+}*/
+
 console.log('Here are the topics we learned through Prework:')
 listTopics()
 
